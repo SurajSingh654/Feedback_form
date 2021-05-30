@@ -24,6 +24,11 @@ const successMsg = () => {
   }
 };
 
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  validate();
+});
+
 const validate = () => {
   const fullnameVal = fullname.value.trim();
   const emailVal = email.value.trim();
