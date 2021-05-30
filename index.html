@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Practice2</title>
+  </head>
+  <body>
+    <div class="main-grid">
+      <div class="nav-header">
+        <div class="logo">
+          <h1>Suraj Singh</h1>
+        </div>
+        <div class="link">
+          <a href="">hello</a>
+          <a href="">how</a>
+          <a href="">are</a>
+          <a href="">you</a>
+        </div>
+      </div>
+      <div class="content-grid">
+        <div class="card">
+          <div class="card_child1">
+            <div class="header">
+              <h1>Feedback form</h1>
+            </div>
+          </div>
+          <div class="card_child2">
+            <form id="form">
+              <div class="form-control">
+                <label>FullName</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  placeholder="Enter your full name"
+                  autocomplete="off"
+                />
+                <i class="fas fa-check-circle fa-2x"></i>
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+                <small>Error Msg</small>
+              </div>
+              <div class="form-control">
+                <label for="">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your e-mail id"
+                  autocomplete="off"
+                />
+                <i class="fas fa-check-circle fa-2x"></i>
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+                <small>Error Msg</small>
+              </div>
+              <div class="form-control">
+                <label for="">Scholar ID</label>
+                <input
+                  type="number"
+                  id="clg-id"
+                  placeholder="Enter your Scholar-ID"
+                  autocomplete="off"
+                />
+                <i class="fas fa-check-circle fa-2x"></i>
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+                <small>Error Msg</small>
+              </div>
+              <div class="form-control">
+                <label for="">Mobile Number</label>
+                <input
+                  type="number"
+                  id="mobile"
+                  placeholder="Enter your Mobile Number"
+                  autocomplete="off"
+                />
+                <i class="fas fa-check-circle fa-2x"></i>
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+                <small>Error Msg</small>
+              </div>
+            
+          </div>
+          <div class="card_child3">
+            <div class="radio">
+              <div class="MF">
+                <div class="gender">
+                  <label for="">Gender</label>
+                </div>
+                <div class="M">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="male-input"
+                  />
+                  <label for="" class="male">Male</label>
+                </div>
+                <div class="F">
+                  <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="female-input"
+                  />
+                  <label for="" class="female">Female</label>
+                </div>
+              </div>
+            </div>
+            <label for="" class="feedback">Your Feedback</label>
+            <textarea
+              placeholder="PLease Give Your Suggestions"
+              class="textarea"
+            ></textarea>
+            <div class="submit">
+              <input
+                type="submit"
+                value="submit"
+                class="btn"
+                id="success"
+                class="submit"
+              />
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
