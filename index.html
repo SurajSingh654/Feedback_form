@@ -98,34 +98,36 @@
           <div class="card_child3">
             <div class="radio">
               <div class="MF">
-                <div class="gender">
-                  <label for="">Gender</label>
+                <div>
+                  <label class="gender">Gender</label>
                 </div>
                 <div class="M">
                   <input
                     type="radio"
                     name="gender"
                     value="male"
-                    id="male-input"
+                    id="gender"
                   />
                   <label for="" class="male">Male</label>
                 </div>
                 <div class="F">
                   <input
-                    type="radio"
+                     type="radio"
                     name="gender"
                     value="female"
-                    id="female-input"
+                    id="gender"
                   />
                   <label for="" class="female">Female</label>
-                </div>
+                </div>      
               </div>
+              <small>Error Msg</small>
             </div>
-            <label for="" class="feedback">Your Feedback</label>
-            <textarea
-              placeholder="PLease Give Your Suggestions"
-              class="textarea"
-            ></textarea>
+            <div class="form-control">
+              <label for="" class="feedback">Your Feedback</label>
+              <textarea name="" id="textarea" >
+              </textarea>
+              <small>Error Msg</small>
+            </div>
             <div class="submit">
               <input
                 type="submit"
@@ -141,5 +143,5 @@
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
+  <script src="script.js" type="text/javascript"></script>
 </html>
