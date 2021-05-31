@@ -61,6 +61,8 @@ const validate = () => {
   else setSuccessMsg(fullname);
 
   if (emailVal === "") setErrorMsg(email, "email can't be blank");
+  else if (!emailVal.match(/^[A-za-z0-9_@.]+$/i))
+    setErrorMsg(email, "email only contain alphanumeric and @,.,_ only");
   else if (!isEmail(emailVal)) setErrorMsg(email, "not a valid email");
   else setSuccessMsg(email);
 
